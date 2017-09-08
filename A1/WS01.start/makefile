@@ -37,7 +37,7 @@ ${LIB}/libstack2.a: ${OBJ}/stack_list.o ${OBJ}/list_impl.o
 ${BIN}/stack_test2: ${OBJ}/stack_test.o ${LIB}/libstack2.a
 	${CC} -o $@ $^
 
-#question4-5
+#question5
 run2: ${BIN}/stack_test2
 	echo "Testing Stack(list)"
 	${BIN}/stack_test2
