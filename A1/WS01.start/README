@@ -1,17 +1,17 @@
 
-First Name:
+First Name:Weilin
 
-Last Name:
+Last Name:Zhang
 
-NYU ID:
+NYU ID:wz723
 
 =======================================================================================
 Files submitted:
 
 lib:
 	libfifo.a: Question 6
-	liblist.a: Question 5 
-	libstack.a: Question 2
+	libstack2.a: Question 5 
+	libstack1.a: Question 2
 
 src:
 	fifo_list.c: Question 6
@@ -29,19 +29,15 @@ include:
 
 =======================================================================================
 Targets in the Makefile:
-
-
-
-
+Question1-3: run1
+Question 4-5: run2
+Question 6: run3
 
 =======================================================================================
 Comments:
-
-
-
+After make, manually make clean is required. 
 =======================================================================================
 Textual answers: 
 
 Question 7:
-
-	
+Add size in list_type, list->size differs when list extract/add an element. See list_impl.c for details.  

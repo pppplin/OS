@@ -17,3 +17,5 @@ void* pop();
 
 /* Returns the number of elements in the stack */
 int size();
+
+int get_stack_size();

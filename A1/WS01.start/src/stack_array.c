@@ -2,13 +2,16 @@
 #include <stdlib.h>
 
 /* Capacity of the stack */
+#ifndef STACK_SIZE
 #define STACK_SIZE 12
+#endif
 
+get_stack_size();
 /* Stack structure */
 typedef struct astack{
 	void* contents[STACK_SIZE];
 	int top;
-} stack;
+}stack;
 
 
 stack s;
@@ -45,4 +48,9 @@ void* pop() {
 /* Compute the size of the stack  */
 int size() {
 	return s.top;
+}
+
+/*Return STACK_SIZE*/
+int get_stack_size(){
+	return STACK_SIZE;
 }
