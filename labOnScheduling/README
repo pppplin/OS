@@ -1,0 +1,24 @@
+
+First Name:Weilin
+
+Last Name:Zhang
+
+NYU ID:wz723
+
+=======================================================================================
+Files submitted:
+
+src: sched-policies.c, sched-simulator.c
+
+include: os-scheduling.h
+
+tasksX: question1, question2
+tasksY: question3
+
+=======================================================================================
+Targets in the Makefile(should be make manually in makefile):
+Question 1: bin/sched-simulator "tasksX" "RR" 4 1>sched-run.txt
+Question 2: bin/sched-simulator "tasksX" "MFQ" 3 1>sched-run.txt
+Question 3: bin/sched-simulator "tasksY" "IORR" 4 1>sched-run.txt
+
+=======================================================================================
