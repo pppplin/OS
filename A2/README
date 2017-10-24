@@ -1,0 +1,43 @@
+
+First Name:Weilin
+
+Last Name:Zhang
+
+NYU ID:wz723
+
+=======================================================================================
+Files submitted:
+
+src:
+	program_trace.c: Question 1
+	decoder.c: Question 2
+	multi_converter.c, converters.c: Question 3
+
+include:
+	converters.h: Question 3
+
+makefile
+README
+
+=======================================================================================
+Targets in the Makefile:
+Question 1: run1
+Question 2: run2
+Question 3: run3
+
+=======================================================================================
+Comments:
+After make, manually make clean is required.
+Question 3 accept arguments in makefile. 
+
+=======================================================================================
+Textual answers: 
+
+Question1 : 
+number of child processes created: 6. See the attached image for a family tree/output.
+
+
+
+
+
+
